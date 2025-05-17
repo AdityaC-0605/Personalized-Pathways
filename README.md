@@ -38,17 +38,17 @@ cd personalized-pathways
 
 2. Install dependencies:
 ```
-npm install
+  npm install
 ```
 3. Start the development server:
 ```
-npm start
+  npm start
 ```
+
 The application will be available at http://localhost:3000
 
 ### Build for Production
 To create a production build:
-
 ```
 npm run build
 ```
@@ -59,27 +59,27 @@ npm run build
   - index.css - Global styles and Tailwind configurations
 - /public
   - index.html - HTML template
-## Features in Detail
-### 1. Dashboard
+
+#Features in Detail
+#1. Dashboard
 - Quick stats showing daily streaks, weekly progress, and achievements
 - Recent activities tracker
 - AI-powered recommendations
 - Subject overview with progress indicators
-### 2. Subjects
+#2. Subjects
 - Detailed view of each subject
 - Progress tracking per module
 - Skill level indicators
 - Learning path visualization
 - AI insights for improved learning
-### 3. Analytics
+#3. Analytics
 - Progress overview across all subjects
 - Learning streak tracking
 - Performance metrics and visualizations
-### 4. Settings
+#4. Settings
 - Account management
 - Learning preferences configuration
 - Notification settings
 - User type-specific options
 =======
 
->>>>>>> 2fb011b72162f96e48cb2ae68dc6579bad191647
