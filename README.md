@@ -1,76 +1,77 @@
-Personalized Pathways
+# Personalized Pathways
 
-Personalized Pathways is an AI-powered learning platform designed to deliver personalized educational experiences for students, teachers, and parents. The platform leverages advanced analytics and artificial intelligence to create customized learning paths and deliver targeted content recommendations.
+**Personalized Pathways** is an AI-powered learning platform designed to deliver personalized educational experiences for students, teachers, and parents. The platform leverages advanced analytics and artificial intelligence to create customized learning paths and deliver targeted content recommendations.
 
-🚀 Features
-Personalized Dashboard: View progress, daily streaks, and achievements at a glance
+---
 
-Subject-Based Learning: Structured learning paths across Mathematics, Science, Language Arts, and History
+## 🚀 Features
 
-AI-Powered Recommendations: Receive tailored content suggestions and study strategies
+* **Personalized Dashboard**: View progress, daily streaks, and achievements at a glance
+* **Subject-Based Learning**: Structured learning paths across Mathematics, Science, Language Arts, and History
+* **AI-Powered Recommendations**: Receive tailored content suggestions and study strategies
+* **Progress Tracking**: Visual indicators and detailed analytics per subject
+* **Achievement System**: Earn badges and track milestones
+* **Multi-User Support**: Role-specific interfaces for students, teachers, and parents
 
-Progress Tracking: Visual indicators and detailed analytics per subject
+---
 
-Achievement System: Earn badges and track milestones
+## 🛠️ Technology Stack
 
-Multi-User Support: Role-specific interfaces for students, teachers, and parents
+* **Frontend**: React.js (v18.2.0)
+* **Styling**: TailwindCSS (v3.3.2)
+* **UI Icons**: Lucide React
+* **Data Visualization**: Recharts
+* **Development Tools**:
 
-🛠️ Technology Stack
-Frontend: React.js (v18.2.0)
+  * PostCSS
+  * Autoprefixer
+  * TailwindCSS Plugins (Typography, Forms, Aspect Ratio)
 
-Styling: TailwindCSS (v3.3.2)
+---
 
-UI Icons: Lucide React
+## 📦 Getting Started
 
-Data Visualization: Recharts
+### ✅ Prerequisites
 
-Development Tools:
+* Node.js (Latest LTS version recommended)
+* npm or yarn (Package manager)
 
-PostCSS
+### 🔧 Installation
 
-Autoprefixer
+1. **Clone the repository**:
 
-TailwindCSS Plugins (Typography, Forms, Aspect Ratio)
+   ```bash
+   git clone https://github.com/AdityaC-0605/Personalized-Pathways.git
+   cd personalized-pathways
+   ```
 
-📦 Getting Started
-✅ Prerequisites
-Node.js (Latest LTS version recommended)
+2. **Install dependencies**:
 
-npm or yarn (Package manager)
+   ```bash
+   npm install
+   ```
 
-🔧 Installation
-Clone the repository:
+3. **Start the development server**:
 
-bash
-Copy
-Edit
-git clone https://github.com/AdityaC-0605/Personalized-Pathways.git
-cd personalized-pathways
-Install dependencies:
+   ```bash
+   npm start
+   ```
 
-bash
-Copy
-Edit
-npm install
-Start the development server:
+   The application will be available at: [http://localhost:3000](http://localhost:3000)
 
-bash
-Copy
-Edit
-npm start
-The application will be available at: http://localhost:3000
+### 📦 Build for Production
 
-📦 Build for Production
 To generate a production-ready build:
 
-bash
-Copy
-Edit
+```bash
 npm run build
-📁 Project Structure
-bash
-Copy
-Edit
+```
+
+---
+
+## 📁 Project Structure
+
+```
 /src
   ├── App.js          # Main application component and routing logic
   ├── index.js        # Entry point of the application
@@ -78,39 +79,38 @@ Edit
 
 /public
   └── index.html      # HTML template
-🔍 Features in Detail
-1. 📊 Dashboard
-Quick stats: daily streaks, weekly progress, and achievements
+```
 
-Recent activity logs
+---
 
-AI-powered learning recommendations
+## 🔍 Features in Detail
 
-Subject summaries with visual progress bars
+### 1. 📊 Dashboard
 
-2. 📚 Subjects
-Detailed views per subject
+* Quick stats: daily streaks, weekly progress, and achievements
+* Recent activity logs
+* AI-powered learning recommendations
+* Subject summaries with visual progress bars
 
-Progress tracking by modules
+### 2. 📚 Subjects
 
-Skill level assessments
+* Detailed views per subject
+* Progress tracking by modules
+* Skill level assessments
+* Visualized learning paths
+* AI-based learning insights
 
-Visualized learning paths
+### 3. 📈 Analytics
 
-AI-based learning insights
+* Aggregate progress across all subjects
+* Learning streak timeline
+* Performance graphs and charts
 
-3. 📈 Analytics
-Aggregate progress across all subjects
+### 4. ⚙️ Settings
 
-Learning streak timeline
+* Account and profile management
+* Configure learning preferences
+* Set up notification preferences
+* Options based on user type (Student, Teacher, Parent)
 
-Performance graphs and charts
-
-4. ⚙️ Settings
-Account and profile management
-
-Configure learning preferences
-
-Set up notification preferences
-
-Options based on user type (Student, Teacher, Parent)
+---
