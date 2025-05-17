@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Personalized Pathways
 
 Personalized Pathways is an AI-powered learning platform that provides personalized educational experiences for students, teachers, and parents. The platform uses advanced analytics and artificial intelligence to create customized learning paths and deliver targeted recommendations for each user.
@@ -80,3 +81,6 @@ npm run build
 - Learning preferences configuration
 - Notification settings
 - User type-specific options
+=======
+
+>>>>>>> 2fb011b72162f96e48cb2ae68dc6579bad191647
